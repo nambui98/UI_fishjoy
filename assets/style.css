@@ -1,0 +1,68 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Inter';
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.main{
+    width: 100vw;
+    height: 100%;
+    background-image: url('./img/bg2.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+}
+.frame{
+    background-image: url('./img/frame.png');
+    background-size: cover;
+    background-position: top;
+    position: absolute;
+    top:112px;
+    right: 90px;
+    left: 90px;
+    bottom: 60px;
+
+}
+.wrap_rooms{
+    
+}
+.rooms{
+overflow-y: auto;
+height: 450px;
+    margin: 200px 90px 94px 90px;
+    display: grid;
+grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+gap: 60px;
+    /* grid-template-rows: 1fr; */
+}
+.room{
+    position: relative;
+}
+.room img{
+    width: 100%;
+}
+.room .room_number{
+    font-size: 64;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    top: 26px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.room .room_members{
+    position: absolute;
+    bottom: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.room .room_members img{
+width: 22px;
+height: 25px;
+}
