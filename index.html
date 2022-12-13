@@ -1,45 +1,26 @@
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900"
+        rel="stylesheet" />
 </head>
+
 <body>
     <div class="main">
         <div class="frame">
-            <div class="wrap_rooms">
-<div class="rooms">
-<!-- <div class="room"> -->
-    
+            <div class="rooms">
             </div>
-
-</div>
- 
         </div>
-   </div>
-</body>
-<script>
-let rooms = document.querySelector('.rooms');
-let arr=[];
-for (let index = 0; index < 100; index++) {
-    const element = `<div class="room">
-<p class="room_number">
-    ${index}
-</p>
-    <img src="./assets/img/room.png"  alt="">
-    <div class="room_members">
-
-    <img src="./assets/img/member.png"  alt="">
-    <img src="./assets/img/member.png"  alt="">
     </div>
-    </div>`
-arr.push(element);
-
-}
-rooms.innerHTML = arr.join('')
-console.log(rooms);
+</body>
+<script src="./script.js"></script>
+<script>
+    
 </script>
+
 </html>
