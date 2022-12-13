@@ -72,7 +72,7 @@ body {
 
     display: flex;
     justify-content: center;
-    gap:5px;
+    gap: 5px;
     /* left: 50%;
     transform: translateX(-50%); */
 
@@ -91,18 +91,21 @@ body {
         margin: 160px 90px 94px 90px;
     }
 }
+
 @media screen and (max-width:1300px) {
-.room .room_number {
-font-size: 40px;
-}
-    
-    .room .room_members{
-bottom: 8px;
+    .room .room_number {
+        font-size: 40px;
     }
-    .room .room_members img{
+
+    .room .room_members {
+        bottom: 8px;
+    }
+
+    .room .room_members img {
         width: 16px;
     }
 }
+
 @media screen and (max-width:1128px) {
     .rooms {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -111,6 +114,7 @@ bottom: 8px;
         gap: 30px;
     }
 }
+
 @media screen and (max-width:900px) {
 
     .rooms {
@@ -119,33 +123,39 @@ bottom: 8px;
         gap: ; */
         margin: 160px 50px 94px 50px;
     }
-.room .room_number {
-font-size: 30px;
-}
-.room .room_members{
-bottom: 8px;
-height: 15px;
-gap: 2px;
+
+    .room .room_number {
+        font-size: 30px;
     }
-.room .room_members img{
-    object-fit: contain;
+
+    .room .room_members {
+        bottom: 8px;
+        height: 15px;
+        gap: 2px;
+    }
+
+    .room .room_members img {
+        object-fit: contain;
         /* width: calc(100% / 3); */
     }
 }
-@media screen and (max-width:400px) {
-.main {
-    background-image: url('./img/bg_mb.jpg');
-}
-.frame {
-    background-image: url('./img/frame_mb.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    inset: 0;
-    top: 100px;
-    left: 5px;
-    right: 5px;
-}
+
+@media screen and (max-width:600px) {
+    .main {
+        background-image: url('./img/bg_mb.jpg');
+    }
+
+    .frame {
+        background-image: url('./img/frame_mb.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        inset: 0;
+        top: 100px;
+        left: 5px;
+        right: 5px;
+    }
+
     .rooms {
         /* grid-template-columns: 1fr 1fr 1fr 1fr;
         height: 350px;
@@ -155,16 +165,19 @@ gap: 2px;
         gap: 14px;
         /* height: 100%; */
     }
-.room .room_number {
-font-size: 24px;
-}
-.room .room_members{
-bottom: 5px;
-height: 10px;
-gap: 2px;
+
+    .room .room_number {
+        font-size: 24px;
     }
-.room .room_members img{
-    object-fit: contain;
+
+    .room .room_members {
+        bottom: 5px;
+        height: 10px;
+        gap: 2px;
+    }
+
+    .room .room_members img {
+        object-fit: contain;
         /* width: calc(100% / 3); */
     }
 }
